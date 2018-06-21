@@ -1,5 +1,5 @@
 {
   "name": "http-echo-server",
-  "description": "A simple HTTP echo server",
+  "description": "Express Based Web Server",
   "repository": "https://github.com/watson/http-echo-server"
 }
