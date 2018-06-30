@@ -32,7 +32,7 @@ app.get('/', function(req, res) {
       console.log('key: %s,value: %s',id,val);
       res.setHeader('Content-Type', 'text/html');
       console.log('value: '+val);
-      res.send('<html><head><title>Supposedly Leaked Info</title></head><body><h2>'+striptags(val)+'</h2></body></html>');
+      res.send('<html><head><title>Supposedly Leaked Info</title></head><body><h2>'+val+'</h2></body></html>');
     });
   
 });
